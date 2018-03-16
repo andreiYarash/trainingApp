@@ -1,14 +1,22 @@
-//
-//  SecondViewController.swift
-//  TrainingApp
-//
-//  Created by Andrei Yarash on 3/13/18.
-//  Copyright © 2018 Andrei Yarash. All rights reserved.
-//
-
 import UIKit
 
 class SecondViewController: UIViewController {
+    
+    @IBOutlet weak var checkButton: UIButton!
+    
+    
+    @IBAction func checkMessage(_ sender: UIButton) {
+        let controller:UIAlertController = UIAlertController(title: "Test Alert", message: nil, preferredStyle: .alert)
+        let actController:UIAlertAction = UIAlertAction(title: "Button Work", style: .destructive, handler: {act in print("Work button Console Check!!!")})
+        let cancelButton:UIAlertAction = UIAlertAction(title: "cancel Button", style: .cancel, handler: nil)
+        controller.addAction(actController)
+        controller.addAction(cancelButton)
+        present(controller, animated: true, completion: nil)
+        
+    }
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,15 +29,5 @@ class SecondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
