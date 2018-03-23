@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+struct PersonalData{
+    var statusLogin:Bool = false
+    var statusLoginPass:Bool = false
+    
+    var dataPersons:[String:String] = ["Andrew1":"Yarosh1999","NikitBlat":"12345","KostyaSuper":"No123"]
+    
+}

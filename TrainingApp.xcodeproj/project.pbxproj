@@ -20,6 +20,8 @@
 		A96A49E12049BD9B00F82AAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96A49DF2049BD9B00F82AAD /* LaunchScreen.storyboard */; };
 		A96A49EC2049BD9C00F82AAD /* TrainingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96A49EB2049BD9C00F82AAD /* TrainingAppTests.swift */; };
 		A96A49F72049BD9C00F82AAD /* TrainingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96A49F62049BD9C00F82AAD /* TrainingAppUITests.swift */; };
+		A9E7695120640F3900FB0920 /* ModelForSecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7695020640F3800FB0920 /* ModelForSecondScreen.swift */; };
+		A9E7695320640FAB00FB0920 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7695220640FAB00FB0920 /* SecondScreenViewController.swift */; };
 		A9E7D3C0205846AE00516674 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7D3BF205846AE00516674 /* SecondViewController.swift */; };
 		DAAD50B9B969AE2C8254DE01 /* libPods-TrainingAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4457944FE52D22C6153E5F5 /* libPods-TrainingAppUITests.a */; };
 /* End PBXBuildFile section */
@@ -63,6 +65,8 @@
 		A96A49F22049BD9C00F82AAD /* TrainingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96A49F62049BD9C00F82AAD /* TrainingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingAppUITests.swift; sourceTree = "<group>"; };
 		A96A49F82049BD9C00F82AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9E7695020640F3800FB0920 /* ModelForSecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelForSecondScreen.swift; sourceTree = "<group>"; };
+		A9E7695220640FAB00FB0920 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
 		A9E7D3BF205846AE00516674 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		BF6B8140C6BC200C2CE118B4 /* libPods-TrainingApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrainingApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4457944FE52D22C6153E5F5 /* libPods-TrainingAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrainingAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,6 +170,7 @@
 		A96A49D22049BD9B00F82AAD /* TrainingApp */ = {
 			isa = PBXGroup;
 			children = (
+				A9E7694F20640F1B00FB0920 /* SecondTwister */,
 				A944D3252061A2B4005B6881 /* LogIn */,
 				A96A49D72049BD9B00F82AAD /* Main.storyboard */,
 				A96A49DA2049BD9B00F82AAD /* TrainingApp.xcdatamodeld */,
@@ -202,6 +207,15 @@
 				A96A49DF2049BD9B00F82AAD /* LaunchScreen.storyboard */,
 			);
 			path = Additional;
+			sourceTree = "<group>";
+		};
+		A9E7694F20640F1B00FB0920 /* SecondTwister */ = {
+			isa = PBXGroup;
+			children = (
+				A9E7695020640F3800FB0920 /* ModelForSecondScreen.swift */,
+				A9E7695220640FAB00FB0920 /* SecondScreenViewController.swift */,
+			);
+			path = SecondTwister;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -500,7 +514,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9E7D3C0205846AE00516674 /* SecondViewController.swift in Sources */,
+				A9E7695120640F3900FB0920 /* ModelForSecondScreen.swift in Sources */,
 				A96A49D62049BD9B00F82AAD /* ViewController.swift in Sources */,
+				A9E7695320640FAB00FB0920 /* SecondScreenViewController.swift in Sources */,
 				A944D3222061A29C005B6881 /* LogInViewController.swift in Sources */,
 				A92B505F206039EA00291273 /* ScrollViewController.swift in Sources */,
 				A96A49DC2049BD9B00F82AAD /* TrainingApp.xcdatamodeld in Sources */,

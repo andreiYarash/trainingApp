@@ -1,35 +1,56 @@
-//
-//  LogInViewController.swift
-//  TrainingApp
-//
-//  Created by Andrei Yarash on 3/20/18.
-//  Copyright © 2018 Andrei Yarash. All rights reserved.
-//
-
 import UIKit
 
 class LogInViewController: UIViewController {
 
+    @IBOutlet weak var logInTextField: UITextField!
+    
+    @IBOutlet weak var passInTextField: UITextField!
+    
+    @IBOutlet weak var logInOutlet: UIButton!
+    
+    let personalInstancesData:PersonalData = PersonalData()
+    
+    @IBAction func exitButtonTextField(_ sender: UITextField) {
+        logInTextField.resignFirstResponder()
+    }
+    
+    @IBAction func exitButtonTextFieldPass(_ sender: UITextField) {
+        passInTextField.resignFirstResponder()
+    }
+    
+    @IBAction func exitFromTextFields(_ sender: UITapGestureRecognizer) {
+        logInTextField.resignFirstResponder()
+        passInTextField.resignFirstResponder()
+    }
+    
+    @IBAction func logInButton(_ sender: UIButton) {
+        let controller = UIAlertController(title: "Enter In", message:"LOGIN", preferredStyle: .alert)
+        let action = UIAlertAction(title: "Enter", style: .default, handler:{(action) in
+            self.performSegue(withIdentifier: "Next", sender:nil)
+            
+            
+        })
+        controller.addAction(action)
+        self.present(controller,animated:true,completion: nil)
+    }
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+  
     }
 
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(true)
+        print("GoodBye")
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+       
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
