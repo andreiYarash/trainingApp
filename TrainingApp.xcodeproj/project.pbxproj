@@ -12,6 +12,9 @@
 		A92B505F206039EA00291273 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92B505E206039EA00291273 /* ScrollViewController.swift */; };
 		A944D3222061A29C005B6881 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A944D3212061A29C005B6881 /* LogInViewController.swift */; };
 		A944D3242061A2AF005B6881 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A944D3232061A2AF005B6881 /* ModelData.swift */; };
+		A959D71D20697CBC00CBF972 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959D71C20697CBC00CBF972 /* SecondTableViewController.swift */; };
+		A959D71F206989D400CBF972 /* TestingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959D71E206989D400CBF972 /* TestingViewController.swift */; };
+		A959D7212069977500CBF972 /* MTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959D7202069977500CBF972 /* MTableViewController.swift */; };
 		A96A49D42049BD9B00F82AAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96A49D32049BD9B00F82AAD /* AppDelegate.swift */; };
 		A96A49D62049BD9B00F82AAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96A49D52049BD9B00F82AAD /* ViewController.swift */; };
 		A96A49D92049BD9B00F82AAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96A49D72049BD9B00F82AAD /* Main.storyboard */; };
@@ -20,6 +23,9 @@
 		A96A49E12049BD9B00F82AAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96A49DF2049BD9B00F82AAD /* LaunchScreen.storyboard */; };
 		A96A49EC2049BD9C00F82AAD /* TrainingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96A49EB2049BD9C00F82AAD /* TrainingAppTests.swift */; };
 		A96A49F72049BD9C00F82AAD /* TrainingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96A49F62049BD9C00F82AAD /* TrainingAppUITests.swift */; };
+		A9A826F620681031000A1EFA /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A826F520681031000A1EFA /* FirstTableViewController.swift */; };
+		A9C38C8A206A8B2700F3F716 /* ThirdTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C38C89206A8B2700F3F716 /* ThirdTableViewController.swift */; };
+		A9C38C8C206ABBBF00F3F716 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C38C8B206ABBBF00F3F716 /* CreateViewController.swift */; };
 		A9E7695120640F3900FB0920 /* ModelForSecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7695020640F3800FB0920 /* ModelForSecondScreen.swift */; };
 		A9E7695320640FAB00FB0920 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7695220640FAB00FB0920 /* SecondScreenViewController.swift */; };
 		A9E7D3C0205846AE00516674 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7D3BF205846AE00516674 /* SecondViewController.swift */; };
@@ -51,6 +57,9 @@
 		A92B505E206039EA00291273 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		A944D3212061A29C005B6881 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		A944D3232061A2AF005B6881 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		A959D71C20697CBC00CBF972 /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
+		A959D71E206989D400CBF972 /* TestingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingViewController.swift; sourceTree = "<group>"; };
+		A959D7202069977500CBF972 /* MTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTableViewController.swift; sourceTree = "<group>"; };
 		A96A49D02049BD9B00F82AAD /* TrainingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96A49D32049BD9B00F82AAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A96A49D52049BD9B00F82AAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +74,9 @@
 		A96A49F22049BD9C00F82AAD /* TrainingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96A49F62049BD9C00F82AAD /* TrainingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingAppUITests.swift; sourceTree = "<group>"; };
 		A96A49F82049BD9C00F82AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9A826F520681031000A1EFA /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
+		A9C38C89206A8B2700F3F716 /* ThirdTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTableViewController.swift; sourceTree = "<group>"; };
+		A9C38C8B206ABBBF00F3F716 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 		A9E7695020640F3800FB0920 /* ModelForSecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelForSecondScreen.swift; sourceTree = "<group>"; };
 		A9E7695220640FAB00FB0920 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
 		A9E7D3BF205846AE00516674 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +160,7 @@
 		A96A49C72049BD9A00F82AAD = {
 			isa = PBXGroup;
 			children = (
+				A9C38C89206A8B2700F3F716 /* ThirdTableViewController.swift */,
 				A96A49D22049BD9B00F82AAD /* TrainingApp */,
 				A96A49EA2049BD9C00F82AAD /* TrainingAppTests */,
 				A96A49F52049BD9C00F82AAD /* TrainingAppUITests */,
@@ -173,6 +186,10 @@
 				A9E7694F20640F1B00FB0920 /* SecondTwister */,
 				A944D3252061A2B4005B6881 /* LogIn */,
 				A96A49D72049BD9B00F82AAD /* Main.storyboard */,
+				A959D7202069977500CBF972 /* MTableViewController.swift */,
+				A9A826F520681031000A1EFA /* FirstTableViewController.swift */,
+				A9C38C8B206ABBBF00F3F716 /* CreateViewController.swift */,
+				A959D71E206989D400CBF972 /* TestingViewController.swift */,
 				A96A49DA2049BD9B00F82AAD /* TrainingApp.xcdatamodeld */,
 				A96A49E22049BD9B00F82AAD /* Info.plist */,
 				A96A4A042049BE1E00F82AAD /* Additional */,
@@ -214,6 +231,7 @@
 			children = (
 				A9E7695020640F3800FB0920 /* ModelForSecondScreen.swift */,
 				A9E7695220640FAB00FB0920 /* SecondScreenViewController.swift */,
+				A959D71C20697CBC00CBF972 /* SecondTableViewController.swift */,
 			);
 			path = SecondTwister;
 			sourceTree = "<group>";
@@ -513,15 +531,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A959D7212069977500CBF972 /* MTableViewController.swift in Sources */,
 				A9E7D3C0205846AE00516674 /* SecondViewController.swift in Sources */,
 				A9E7695120640F3900FB0920 /* ModelForSecondScreen.swift in Sources */,
 				A96A49D62049BD9B00F82AAD /* ViewController.swift in Sources */,
+				A959D71F206989D400CBF972 /* TestingViewController.swift in Sources */,
+				A9C38C8C206ABBBF00F3F716 /* CreateViewController.swift in Sources */,
 				A9E7695320640FAB00FB0920 /* SecondScreenViewController.swift in Sources */,
+				A9A826F620681031000A1EFA /* FirstTableViewController.swift in Sources */,
 				A944D3222061A29C005B6881 /* LogInViewController.swift in Sources */,
 				A92B505F206039EA00291273 /* ScrollViewController.swift in Sources */,
 				A96A49DC2049BD9B00F82AAD /* TrainingApp.xcdatamodeld in Sources */,
 				A96A49D42049BD9B00F82AAD /* AppDelegate.swift in Sources */,
+				A959D71D20697CBC00CBF972 /* SecondTableViewController.swift in Sources */,
 				A944D3242061A2AF005B6881 /* ModelData.swift in Sources */,
+				A9C38C8A206A8B2700F3F716 /* ThirdTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,19 +9,34 @@
 import UIKit
 
 class SecondScreenViewController: UIViewController,UITableViewDelegate,UITableViewDataSource{
-    
     @IBOutlet weak var tableView: UITableView!
     
+    let array:[String] = ["Hello","Buy","Bla","Putin","Navalny","Yarosh","And TARUMP","Wow who are you","Hehehehe","Tatsi","Kent"]
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return array.count
+        
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let ind:String = "Cell"
+        let cell = tableView.dequeueReusableCell(withIdentifier: ind, for: indexPath)
+        cell.textLabel?.text = array[indexPath.row]
+        
+        return cell
+    }
+    
+
+    
+
     
     
     
     
-    var simpleModel = Title()
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.delegate = self
-        tableView.dataSource = self
-
+       
     }
 
   

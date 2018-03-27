@@ -4,7 +4,7 @@
 target 'TrainingApp' do
 pod 'GoogleMaps'
 pod 'GooglePlaces'
-
+pod 'RealmSwift'
  
 
   # Pods for TrainingApp
